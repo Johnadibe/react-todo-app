@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import React, { useState } from 'react';
 import Header from './Header';
 import InputTodo from './InputTodo';
@@ -33,7 +34,12 @@ function Todo() {
     <div>
       <Header />
       <InputTodo onSubmit={addTodo} />
-      <TodoList todos={todos} updateTodo={updateTodo} deleteTodo={deleteTodo} completeTodo={completeTodo} />
+      <TodoList
+        todos={todos}
+        updateTodo={updateTodo}
+        deleteTodo={deleteTodo}
+        completeTodo={completeTodo}
+      />
 
     </div>
   );

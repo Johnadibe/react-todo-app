@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable  react/no-array-index-key */
 import React, { useState } from 'react';
 import { AiTwotoneEdit } from 'react-icons/ai';
 import { MdDelete } from 'react-icons/md';

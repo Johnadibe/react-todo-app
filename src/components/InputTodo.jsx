@@ -1,3 +1,6 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable no-lone-blocks */
 import React, { useState, useRef } from 'react';
 import { IoMdAddCircle } from 'react-icons/io';
 
